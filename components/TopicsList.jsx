@@ -8,7 +8,7 @@ const getTopics = async () => {
 
 
   try {
-    const res = await fetch("http://localhost:3000/api/topics", {
+    const res = await fetch("https://intern-react-test.vercel.app/api/topics", {
       cache: "no-store",
     });
 

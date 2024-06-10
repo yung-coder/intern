@@ -19,7 +19,7 @@ export default function AddTopic() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/api/topics", {
+      const res = await axios.post("https://intern-react-test.vercel.app/api/topics", {
         title,
         description,
       }, {

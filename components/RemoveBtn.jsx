@@ -10,7 +10,7 @@ export default function RemoveBtn({ id }) {
     const confirmed = confirm("Are you sure?");
 
     if (confirmed) {
-      const res = await axios.delete(`http://localhost:3000/api/topics`, {
+      const res = await axios.delete(`https://intern-react-test.vercel.app/api/topics`, {
         params: {
           id: id,
         }

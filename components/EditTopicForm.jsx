@@ -14,7 +14,7 @@ export default function EditTopicForm({ id, title, description }) {
     e.preventDefault();
 
     try {
-      const res = await axios.put(`http://localhost:3000/api/topics/${id}`, {
+      const res = await axios.put(`https://intern-react-test.vercel.app/api/topics/${id}`, {
         newTitle,
         newDescription,
       }, {
