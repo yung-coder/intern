@@ -23,10 +23,6 @@ export default function EditTopicForm({ id, title, description }) {
         },
       });
 
-      // if (!res.ok) {
-      //   throw new Error("Failed to update topic");
-      // }
-
       router.refresh();
       router.push("/");
     } catch (error) {

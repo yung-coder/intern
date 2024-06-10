@@ -7,7 +7,7 @@ export default function Navbar() {
         Assignment 
       </Link>
       <Link className="bg-white p-2" href={"/addTopic"}>
-        Add Topic
+        Add
       </Link>
     </nav>
   );
